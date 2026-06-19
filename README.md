@@ -66,6 +66,16 @@ The project evaluates models using:
 - F1 Score
 - ROC-AUC
 
+## Results
+
+| Model | ROC-AUC |
+|---------|---------|
+| Logistic Regression | XX |
+| Random Forest | XX |
+| SVM | XX |
+
+Best Performing Model: Random Forest
+
 Because the dataset is imbalanced, accuracy alone is not enough. Recall, F1 score, and ROC-AUC are more useful for understanding whether the model can identify high-risk CHD cases.
 
 ## Repository Structure
@@ -90,7 +100,7 @@ heart-disease-risk-prediction/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/heart-disease-risk-prediction.git
+git clone https://github.com/alv2030/heart-disease-risk-prediction.git
 cd heart-disease-risk-prediction
 ```
 
@@ -128,4 +138,4 @@ python src/train_models.py
 
 ## Resume Bullet
 
-Developed machine learning models to predict 10-year coronary heart disease risk using demographic, lifestyle, and clinical indicators from the Framingham Heart Study dataset; compared Logistic Regression, Naive Bayes, Decision Tree, Random Forest, and SVM using cross-validation and ROC-AUC.
+Developed machine learning models to predict 10-year coronary heart disease risk using the Framingham dataset, achieving strong classification performance through cross-validation and ROC-AUC evaluation.
