@@ -2,7 +2,7 @@
 
 A machine learning project that predicts 10-year coronary heart disease (CHD) risk using demographic, lifestyle, and clinical health indicators from the Framingham Heart Study dataset.
 
-This project started as a statistical learning assignment and was cleaned into a portfolio-ready data science project with clearer structure, reproducible code, and professional documentation.
+This project explores machine learning techniques for predicting long-term coronary heart disease risk using patient demographic, lifestyle, and clinical health indicators.
 
 ## Project Objective
 
